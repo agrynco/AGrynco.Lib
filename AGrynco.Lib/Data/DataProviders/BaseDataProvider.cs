@@ -645,15 +645,7 @@ namespace AGrynco.Lib.Data.DataProviders
         {
             if (Connection.State != ConnectionState.Open)
             {
-                try
-                {
-                    Connection.Open();
-                }
-                catch (Exception ex)
-                {
-                    //Logger.Error(ex, string.Format("Connection.State = {0}", Connection.State));
-                    throw;
-                }
+                Connection.Open();
             }
         }
         #endregion
