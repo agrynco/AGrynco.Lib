@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E8833F4-190C-4DF8-9302-4D9EC704915C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AGrynco.Lib</RootNamespace>
+    <AssemblyName>AGrynco.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyScanner.cs" />
+    <Compile Include="AssemblyScannerException.cs" />
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="BaseSingletone.cs" />
+    <Compile Include="CanNotConvertException.cs" />
+    <Compile Include="Collections\CollectionUtils.cs" />
+    <Compile Include="Collections\CustomCollection.cs" />
+    <Compile Include="Collections\CustomList.cs" />
+    <Compile Include="Collections\DictionaryEx.cs" />
+    <Compile Include="Collections\DiffDetector.cs" />
+    <Compile Include="Collections\Diff\CollectionsDiffResult.cs" />
+    <Compile Include="Collections\ICustomCollection.cs" />
+    <Compile Include="Collections\ICustomList.cs" />
+    <Compile Include="Collections\ReadOnlyCollection.cs" />
+    <Compile Include="Collections\TrackedCollection.cs" />
+    <Compile Include="Collections\TreeRoutine\INamedTreeNodeEntity.cs" />
+    <Compile Include="Collections\TreeRoutine\ITreeNodeEntity.cs" />
+    <Compile Include="Collections\TreeRoutine\TreeNode.cs" />
+    <Compile Include="Collections\TreeRoutine\TreeNodeEntityBase.cs" />
+    <Compile Include="Collections\TreeRoutine\TreeNodeList.cs" />
+    <Compile Include="Collections\TreeRoutine\TreeNodeListBuilder.cs" />
+    <Compile Include="Collections\TreeRoutine\TreeNodeListBuilderUtils.cs" />
+    <Compile Include="Console\CommandLineParameters\BaseCommandLineParameter.cs" />
+    <Compile Include="Console\CommandLineParameters\BooleanCommandLineParameter.cs" />
+    <Compile Include="Console\CommandLineParameters\CommandLineParametersProcessor.cs" />
+    <Compile Include="Console\CommandLineParameters\CommandLineProcessingResult.cs" />
+    <Compile Include="Console\CommandLineParameters\DateCommandLineParameter.cs" />
+    <Compile Include="Console\CommandLineParameters\ICommandLineParameter.cs" />
+    <Compile Include="Console\CommandLineParameters\IntCommandLineParameter.cs" />
+    <Compile Include="Console\CommandLineParameters\NullableBooleanCommandLineParameter.cs" />
+    <Compile Include="Console\CommandLineParameters\StringCommandLineParameter.cs" />
+    <Compile Include="Console\ConsoleExtensions.cs" />
+    <Compile Include="Console\Exceptions\CommandLineParameterException.cs" />
+    <Compile Include="Console\Exceptions\CommandLineParametersPrcessorValidateException.cs" />
+    <Compile Include="Console\Exceptions\ParseCommandLineParameterException.cs" />
+    <Compile Include="Containers\Container.cs" />
+    <Compile Include="Containers\ContainerBase.cs" />
+    <Compile Include="Containers\ContainerItemCreator.cs" />
+    <Compile Include="Containers\ContainerItemRegistrator.cs" />
+    <Compile Include="Containers\IContainer.cs" />
+    <Compile Include="Containers\IContainerItemCreator.cs" />
+    <Compile Include="Containers\IContainerItemCreatorParameters.cs" />
+    <Compile Include="Containers\IContainerItemRegistrator.cs" />
+    <Compile Include="Containers\ItemCreatorParamsEmpty.cs" />
+    <Compile Include="Containers\TypeCriteria.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="ConverterAttribute.cs" />
+    <Compile Include="ConverterFactory.cs" />
+    <Compile Include="ConverterNotFoundException.cs" />
+    <Compile Include="ConvertersBaseClass.cs" />
+    <Compile Include="Converters\BooleanConverter.cs" />
+    <Compile Include="Converters\CharConverter.cs" />
+    <Compile Include="Converters\DateTimeConverter.cs" />
+    <Compile Include="Converters\DecimalConverter.cs" />
+    <Compile Include="Converters\IntConverter.cs" />
+    <Compile Include="Converters\LongConverter.cs" />
+    <Compile Include="Converters\NullableCharConverter.cs" />
+    <Compile Include="Converters\NullableDateTimeConverter.cs" />
+    <Compile Include="Converters\NullableIntConverter.cs" />
+    <Compile Include="Converters\NullableLongConverter.cs" />
+    <Compile Include="Converters\ObjectConverter.cs" />
+    <Compile Include="Converters\SringConverter.cs" />
+    <Compile Include="Converters\UIntConverter.cs" />
+    <Compile Include="CriteriaRoutine\BaseCriteria.cs" />
+    <Compile Include="CriteriaRoutine\Clause.cs" />
+    <Compile Include="CriteriaRoutine\Criteria.cs" />
+    <Compile Include="CriteriaRoutine\CriteriaItem.cs" />
+    <Compile Include="CriteriaRoutine\ICriteriaHandler.cs" />
+    <Compile Include="CriteriaRoutine\LogicalOperator.cs" />
+    <Compile Include="CriteriaRoutine\StringCriteriaHandler.cs" />
+    <Compile Include="CustomAttributes\IgnoreAttribute.cs" />
+    <Compile Include="Data\DataProviders.MsSql\SqlDatabaseManager.cs" />
+    <Compile Include="Data\DataProviders.MsSql\SqlDbDataProvider.cs" />
+    <Compile Include="Data\DataProviders\Attributes\InsertIgnoreAttribute.cs" />
+    <Compile Include="Data\DataProviders\Attributes\UpdateIgnoreAttribute.cs" />
+    <Compile Include="Data\DataProviders\BaseDatabaseManager.cs" />
+    <Compile Include="Data\DataProviders\BaseDataProvider.cs" />
+    <Compile Include="Data\DataProviders\DataProviderFactory.cs" />
+    <Compile Include="Data\DataProviders\DataProviderType.cs" />
+    <Compile Include="Data\DataProviders\DbDataReader.cs" />
+    <Compile Include="Data\DataProviders\DbProviderException.cs" />
+    <Compile Include="Data\DataProviders\DbScriptExecutor.cs" />
+    <Compile Include="Data\DataProviders\Exceptions\DataProviderException.cs" />
+    <Compile Include="Data\DataProviders\Exceptions\ExecuteBatchException.cs" />
+    <Compile Include="Data\DataProviders\Exceptions\ExecuteScalarException.cs" />
+    <Compile Include="Data\DataProviders\Exceptions\NoRecordsException.cs" />
+    <Compile Include="Data\DataProviders\Exceptions\ScriptSplittingEsception.cs" />
+    <Compile Include="Data\DataProviders\Exceptions\ThereIsNoFieldException.cs" />
+    <Compile Include="Data\DataProviders\IDataBaseManager.cs" />
+    <Compile Include="Data\DataProviders\IDataProvider.cs" />
+    <Compile Include="Data\DataProviders\IDbDataReader.cs" />
+    <Compile Include="Data\DataProviders\IDbScript.cs" />
+    <Compile Include="Data\DataProviders\IDbScriptExecutor.cs" />
+    <Compile Include="Data\DataProviders\IDBScriptLoader.cs" />
+    <Compile Include="Data\DataProviders\SqlDbScript.cs" />
+    <Compile Include="Data\Repository\BaseEntity.cs" />
+    <Compile Include="Data\Repository\BaseKey.cs" />
+    <Compile Include="Data\Repository\BaseMultiKey.cs" />
+    <Compile Include="Data\Repository\BaseRepository.cs" />
+    <Compile Include="Data\Repository\DummyIdentifier.cs" />
+    <Compile Include="Data\Repository\Exceptions\AreDublicateKeysException.cs" />
+    <Compile Include="Data\Repository\Exceptions\IdentifiersAreNotCompatibleException.cs" />
+    <Compile Include="Data\Repository\Exceptions\NotAllKeysHaveValueException.cs" />
+    <Compile Include="Data\Repository\Exceptions\RepositoryException.cs" />
+    <Compile Include="Data\Repository\Exceptions\ThereIsNoDataException.cs" />
+    <Compile Include="Data\Repository\Exceptions\ToManyRecordsException.cs" />
+    <Compile Include="Data\Repository\GettingReaderResult.cs" />
+    <Compile Include="Data\Repository\IdentifierInt.cs" />
+    <Compile Include="Data\Repository\IEntity.cs" />
+    <Compile Include="Data\Repository\IKey.cs" />
+    <Compile Include="Data\Repository\IMultiKey.cs" />
+    <Compile Include="Data\Repository\IReadOnlyRepository.cs" />
+    <Compile Include="Data\Repository\IRepository.cs" />
+    <Compile Include="Data\Repository\KeyInt.cs" />
+    <Compile Include="Data\Repository\RepositoryExtensions.cs" />
+    <Compile Include="Exceptions\CanNotAssignPropertyException.cs" />
+    <Compile Include="Exceptions\CanNotFindControlException.cs" />
+    <Compile Include="Exceptions\CommandLineParameterException.cs" />
+    <Compile Include="Exceptions\CommandLineParametersPrcessorValidateException.cs" />
+    <Compile Include="Exceptions\ContainerKeyNotFoundException.cs" />
+    <Compile Include="Exceptions\ContainerRegisterTypeException.cs" />
+    <Compile Include="Exceptions\ConvertException.cs" />
+    <Compile Include="Exceptions\DuplicateException.cs" />
+    <Compile Include="Exceptions\NotDefinedException.cs" />
+    <Compile Include="Exceptions\NotYetDefinedException.cs" />
+    <Compile Include="Exceptions\ParseCommandLineParameterException.cs" />
+    <Compile Include="Exceptions\PathNotFoundException.cs" />
+    <Compile Include="Exceptions\PathNotFoundMsgBuilder.cs" />
+    <Compile Include="Exceptions\RegularExpressionException.cs" />
+    <Compile Include="Exceptions\ThereIsNoItemException.cs" />
+    <Compile Include="Exceptions\ThereIsNoPropertyException.cs" />
+    <Compile Include="Exceptions\ToMuchItemsException.cs" />
+    <Compile Include="Execution\ExecutionResult.cs" />
+    <Compile Include="Execution\Executor.cs" />
+    <Compile Include="Execution\IExecutionResult.cs" />
+    <Compile Include="IgnoreAttribute.cs" />
+    <Compile Include="IValueConverter.cs" />
+    <Compile Include="LinqHelpers.cs" />
+    <Compile Include="ObjComparer.cs" />
+    <Compile Include="PropertiesSelector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyValueManager.cs" />
+    <Compile Include="RandomGenerators\BaseRandomGenerator.cs" />
+    <Compile Include="RandomGenerators\DecimalRandomGenerator.cs" />
+    <Compile Include="RandomGenerators\IntRandomGenerator.cs" />
+    <Compile Include="RandomGenerators\IRandomGenerator.cs" />
+    <Compile Include="RandomGenerators\RandomGenerator.cs" />
+    <Compile Include="RandomGenerators\RandomGeneratorAttribute.cs" />
+    <Compile Include="RandomGenerators\StringRandomGenerator.cs" />
+    <Compile Include="ResourcesUtils\ResourceReader.cs" />
+    <Compile Include="Settings\ConfigManager.cs" />
+    <Compile Include="Settings\ConfigSettingsManager.cs" />
+    <Compile Include="Settings\Exceptions\RegistrySettingsException.cs" />
+    <Compile Include="Settings\Exceptions\SettingsException.cs" />
+    <Compile Include="Settings\Exceptions\ThereIsNoSettingException.cs" />
+    <Compile Include="Settings\Exceptions\ThereIsNoValueForSettingException.cs" />
+    <Compile Include="Settings\Exceptions\WrongFormatException.cs" />
+    <Compile Include="Settings\ISettingsManager.cs" />
+    <Compile Include="Settings\RegistrySettingsManager.cs" />
+    <Compile Include="Settings\SettingsManager.cs" />
+    <Compile Include="Settings\SettingsManagerBase.cs" />
+    <Compile Include="StrUtils\AutoComplete.cs" />
+    <Compile Include="StrUtils\FromStringConverter\BaseFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\DateTimeFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\DecimalFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\Exceptions\FromStringConverterException.cs" />
+    <Compile Include="StrUtils\FromStringConverter\FromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\FromStringConverterAttribute.cs" />
+    <Compile Include="StrUtils\FromStringConverter\FromStringConverterRegistrator.cs" />
+    <Compile Include="StrUtils\FromStringConverter\FromStringConvertersContainer.cs" />
+    <Compile Include="StrUtils\FromStringConverter\IdleFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\IFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\Int64FromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\IntFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\NullableBooleanFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\NullableIntFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\SpaceRemover.cs" />
+    <Compile Include="StrUtils\FromStringConverter\ToNullableFromStringConverter.cs" />
+    <Compile Include="StrUtils\FromStringConverter\UIntFromStringConverter.cs" />
+    <Compile Include="StrUtils\RegularExpressionPatterns.cs" />
+    <Compile Include="StrUtils\StrUtility.cs" />
+    <Compile Include="ToStringConverters\BaseToStringConverter.cs" />
+    <Compile Include="ToStringConverters\DBNullToStringConverter.cs" />
+    <Compile Include="ToStringConverters\EnumerableToStringConverter.cs" />
+    <Compile Include="ToStringConverters\GuidToStringConverter.cs" />
+    <Compile Include="ToStringConverters\IgnoreConvertToStringAttribute.cs" />
+    <Compile Include="ToStringConverters\IParamValueToStringConverter.cs" />
+    <Compile Include="ToStringConverters\StringToStringConverter.cs" />
+    <Compile Include="ToStringConverters\ToStringConverter.cs" />
+    <Compile Include="TypeUtil.cs" />
+    <Compile Include="Validation\EasyRegularExpressionValidator.cs" />
+    <Compile Include="Validation\EasyValidationResultList.cs" />
+    <Compile Include="Validation\EasyValidationResultSummary.cs" />
+    <Compile Include="Validation\EasyValidatorBase.cs" />
+    <Compile Include="Validation\IEasyValidator.cs" />
+    <Compile Include="Validation\IValidated.cs" />
+    <Compile Include="Validation\IValidationResult.cs" />
+    <Compile Include="Validation\IValidator.cs" />
+    <Compile Include="Validation\RootValidator.cs" />
+    <Compile Include="Validation\RootValidatorBase.cs" />
+    <Compile Include="Validation\ValidationResult.cs" />
+    <Compile Include="Validation\ValidationResultList.cs" />
+    <Compile Include="Validation\ValidatorAttribute.cs" />
+    <Compile Include="Validation\ValidatorBase.cs" />
+    <Compile Include="Validation\ValidatorMetaInfo.cs" />
+    <Compile Include="Validation\ValidatorMetaInfoList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Settings\packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\DataProviders.MsSql\SQL\DropDb.sql" />
+    <Content Include="Data\DataProviders.MsSql\SQL\MsSqlKillConnections.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
