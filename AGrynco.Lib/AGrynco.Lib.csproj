@@ -72,9 +72,6 @@
     <Compile Include="Console\CommandLineParameters\NullableBooleanCommandLineParameter.cs" />
     <Compile Include="Console\CommandLineParameters\StringCommandLineParameter.cs" />
     <Compile Include="Console\ConsoleExtensions.cs" />
-    <Compile Include="Console\Exceptions\CommandLineParameterException.cs" />
-    <Compile Include="Console\Exceptions\CommandLineParametersPrcessorValidateException.cs" />
-    <Compile Include="Console\Exceptions\ParseCommandLineParameterException.cs" />
     <Compile Include="Containers\Container.cs" />
     <Compile Include="Containers\ContainerBase.cs" />
     <Compile Include="Containers\ContainerItemCreator.cs" />
