@@ -22,10 +22,12 @@ SET pathToBinaries=..Sources\\AGrynco.Lib\bin\Debug\
 
 COPY %pathToBinaries%*.* %targetBinraiesFolder%
 
+SET toolsDir=%CD%
+
 CD %workFolder%
 
-nuget pack %specFileName%
+%toolsDir%\nuget pack %specFileName%
 
-nuget setApiKey %apiKey%
+%toolsDir%\nuget setApiKey %apiKey%
 
-REM nuget push AGrynco.Lib.dll.%build%.nupkg
+%toolsDir%\nuget push AGrynco.Lib.dll.%build%.nupkg
