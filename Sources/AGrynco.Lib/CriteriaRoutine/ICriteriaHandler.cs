@@ -1,4 +1,4 @@
-namespace AGrynco.Lib.CriteriaRoutine
+namespace AGrynCo.Lib.CriteriaRoutine
 {
     public interface ICriteriaHandler
     {

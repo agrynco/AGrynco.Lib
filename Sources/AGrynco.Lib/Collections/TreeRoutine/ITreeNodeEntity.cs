@@ -4,7 +4,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.Collections.TreeRoutine
+namespace AGrynCo.Lib.Collections.TreeRoutine
 {
     public interface ITreeNodeEntity
     {

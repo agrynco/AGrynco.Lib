@@ -4,7 +4,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Exceptions
+namespace AGrynCo.Lib.Exceptions
 {
     #endregion
 

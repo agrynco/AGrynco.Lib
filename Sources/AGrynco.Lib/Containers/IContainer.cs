@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Containers
+namespace AGrynCo.Lib.Containers
 {
     public interface IContainer : IEnumerable<Type>
     {

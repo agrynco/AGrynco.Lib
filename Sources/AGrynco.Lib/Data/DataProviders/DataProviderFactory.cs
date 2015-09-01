@@ -2,7 +2,7 @@
 
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders
+namespace AGrynCo.Lib.Data.DataProviders
 {
 //    public class DataProviderFactory
 //    {

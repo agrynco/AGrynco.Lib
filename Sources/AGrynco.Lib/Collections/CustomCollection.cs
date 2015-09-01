@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public class CustomCollection<TKey, TValue> : ICustomCollection
     {

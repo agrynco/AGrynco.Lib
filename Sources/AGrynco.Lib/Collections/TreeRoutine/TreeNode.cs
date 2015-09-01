@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 #endregion
 
-namespace AGrynco.Lib.Collections.TreeRoutine
+namespace AGrynCo.Lib.Collections.TreeRoutine
 {
     public class TreeNode<TTypeOfTreeNode>
         where TTypeOfTreeNode : TreeNode<TTypeOfTreeNode>

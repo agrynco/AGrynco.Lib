@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Reflection;
 #endregion
 
-namespace AGrynco.Lib.RandomGenerators
+namespace AGrynCo.Lib.RandomGenerators
 {
 
     #region Usings

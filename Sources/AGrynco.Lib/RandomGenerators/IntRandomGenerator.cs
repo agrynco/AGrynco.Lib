@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AGrynco.Lib.RandomGenerators
+namespace AGrynCo.Lib.RandomGenerators
 {
     #region Usings
     

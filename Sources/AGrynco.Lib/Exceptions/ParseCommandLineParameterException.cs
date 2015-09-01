@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Exceptions
+namespace AGrynCo.Lib.Exceptions
 {
     public class ParseCommandLineParameterException : CommandLineParameterException
     {

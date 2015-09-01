@@ -1,10 +1,9 @@
 ﻿#region Usings
 using System;
-
-using AGrynco.Lib.Data.DataProviders;
+using AGrynCo.Lib.Data.DataProviders;
 #endregion
 
-namespace AGrynco.Lib.Data.Repository
+namespace AGrynCo.Lib.Data.Repository
 {
     public class GettingReaderResult : IDisposable
     {

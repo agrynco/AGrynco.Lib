@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public class ValidatorMetaInfoList : IEnumerable<ValidatorMetaInfo>
     {

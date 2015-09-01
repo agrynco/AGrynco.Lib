@@ -1,10 +1,9 @@
 ﻿#region Usings
 using System;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Console.CommandLineParameters
+namespace AGrynCo.Lib.Console.CommandLineParameters
 {
     public abstract class BaseCommandLineParameter<TValue> : BaseClass, ICommandLineParameter<TValue>
     {

@@ -1,11 +1,10 @@
 #region Usings
 using System.Collections;
 using System.Collections.Generic;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public static class CollectionUtils
     {

@@ -5,7 +5,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace AGrynco.Lib.Data.Repository.Exceptions
+namespace AGrynCo.Lib.Data.Repository.Exceptions
 {
     public class AreDublicateKeysException : RepositoryException
     {

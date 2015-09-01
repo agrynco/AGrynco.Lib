@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Collections.TreeRoutine
+namespace AGrynCo.Lib.Collections.TreeRoutine
 {
     public class TreeNodeListBuilder<TTreeNode>
         where TTreeNode : TreeNode<TTreeNode>, new()

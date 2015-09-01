@@ -2,11 +2,10 @@
 using System;
 using System.Diagnostics;
 using System.Reflection;
-
-using AGrynco.Lib.Containers;
+using AGrynCo.Lib.Containers;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     /// <summary>
     /// Build a collection of validators

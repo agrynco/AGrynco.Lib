@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Console.CommandLineParameters
+namespace AGrynCo.Lib.Console.CommandLineParameters
 {
     public class DateCommandLineParameter : BaseCommandLineParameter<DateTime>
     {

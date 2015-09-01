@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 #endregion
 
-namespace AGrynco.Lib.Data.Repository.Exceptions
+namespace AGrynCo.Lib.Data.Repository.Exceptions
 {
     public class ToManyRecordsException : RepositoryException
     {

@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib.Settings.Exceptions
+﻿namespace AGrynCo.Lib.Settings.Exceptions
 {
     public class ThereIsNoValueForSettingException : SettingsException
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.CriteriaRoutine
+namespace AGrynCo.Lib.CriteriaRoutine
 {
     public class Criteria : BaseCriteria
     {

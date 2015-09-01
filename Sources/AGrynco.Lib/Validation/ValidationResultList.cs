@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public class ValidationResultList<TValidatedObject, TValidationResult> : BaseClass, IValidationResult, IEnumerable<TValidationResult>
         where TValidationResult : IValidationResult

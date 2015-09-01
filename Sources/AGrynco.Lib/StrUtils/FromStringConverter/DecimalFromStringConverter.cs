@@ -2,7 +2,7 @@
 using System.Threading;
 #endregion
 
-namespace AGrynco.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverter
 {
     [FromStringConverter]
     public class DecimalFromStringConverter : BaseFromStringConverter<decimal>

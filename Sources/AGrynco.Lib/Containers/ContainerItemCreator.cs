@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Containers
+namespace AGrynCo.Lib.Containers
 {
     public class ContainerItemCreator : IContainerItemCreator<ItemCreatorParamsEmpty>
     {

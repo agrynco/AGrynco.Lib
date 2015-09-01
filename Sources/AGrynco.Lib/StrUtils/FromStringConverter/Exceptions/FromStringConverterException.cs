@@ -1,11 +1,10 @@
 ﻿#region Usings
 using System;
 using System.Runtime.Serialization;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.StrUtils.FromStringConverter.Exceptions
+namespace AGrynCo.Lib.StrUtils.FromStringConverter.Exceptions
 {
     public class FromStringConvertException : ConvertException
     {

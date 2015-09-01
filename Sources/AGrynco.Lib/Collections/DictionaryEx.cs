@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public class DictionaryEx<TKey, TValue> : Dictionary<TKey, TValue>
     {

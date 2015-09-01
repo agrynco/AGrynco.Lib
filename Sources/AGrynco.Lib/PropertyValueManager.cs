@@ -1,11 +1,10 @@
 ﻿#region Usings
 using System;
 using System.Reflection;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public class PropertyValueManager
     {

@@ -3,11 +3,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-
-using AGrynco.Lib.Data.Repository.Exceptions;
+using AGrynCo.Lib.Data.Repository.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Data.Repository
+namespace AGrynCo.Lib.Data.Repository
 {
     public abstract class BaseMultiKey : IMultiKey, IEnumerable<IKey>
     {

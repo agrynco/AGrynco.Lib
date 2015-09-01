@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib.Data.Repository.Exceptions
+﻿namespace AGrynCo.Lib.Data.Repository.Exceptions
 {
     public class NotAllKeysHaveValueException : RepositoryException
     {

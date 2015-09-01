@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     [AttributeUsage(AttributeTargets.Property)]
     public class IgnoreAttribute : Attribute

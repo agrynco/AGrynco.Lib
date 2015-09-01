@@ -2,7 +2,7 @@
 using System.Collections;
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public interface ICustomCollection : IEnumerable
     {

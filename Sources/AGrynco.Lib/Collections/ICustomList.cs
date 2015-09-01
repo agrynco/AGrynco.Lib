@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public interface ICustomList<TItem> : IList<TItem>
     {

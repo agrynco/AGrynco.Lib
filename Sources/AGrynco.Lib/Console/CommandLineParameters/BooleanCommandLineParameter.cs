@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib.Console.CommandLineParameters
+﻿namespace AGrynCo.Lib.Console.CommandLineParameters
 {
     public class BooleanCommandLineParameter : BaseCommandLineParameter<bool>
     {

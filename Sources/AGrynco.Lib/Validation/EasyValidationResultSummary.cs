@@ -2,7 +2,7 @@
 using System.Diagnostics;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public class EasyValidationResultSummary<TValidatedObject> : EasyValidationResultList<TValidatedObject>
     {

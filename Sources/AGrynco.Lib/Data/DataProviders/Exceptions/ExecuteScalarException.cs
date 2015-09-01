@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace AGrynco.Lib.Data.DataProviders.Exceptions
+namespace AGrynCo.Lib.Data.DataProviders.Exceptions
 {
     public class ExecuteScalarException : DataProviderException
     {

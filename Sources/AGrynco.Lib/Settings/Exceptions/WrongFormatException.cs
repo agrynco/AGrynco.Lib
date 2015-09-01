@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 #endregion
 
-namespace AGrynco.Lib.Settings.Exceptions
+namespace AGrynCo.Lib.Settings.Exceptions
 {
     public class WrongFormatException : SettingsException
     {

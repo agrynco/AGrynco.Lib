@@ -1,11 +1,10 @@
 #region Usings
 using System.Collections.Generic;
 using System.Text;
-
-using AGrynco.Lib.ToStringConverters;
+using AGrynCo.Lib.ToStringConverters;
 #endregion
 
-namespace AGrynco.Lib.CriteriaRoutine
+namespace AGrynCo.Lib.CriteriaRoutine
 {
     public class StringCriteriaHandler : ICriteriaHandler
     {

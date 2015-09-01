@@ -1,4 +1,4 @@
-namespace AGrynco.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverter
 {
     [FromStringConverter]
     public class IntFromStringConverter : BaseFromStringConverter<int>

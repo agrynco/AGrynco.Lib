@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Console
+namespace AGrynCo.Lib.Console
 {
     public static class ConsoleExtensions
     {

@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Execution
+namespace AGrynCo.Lib.Execution
 {
     public interface IExecutionResult
     {

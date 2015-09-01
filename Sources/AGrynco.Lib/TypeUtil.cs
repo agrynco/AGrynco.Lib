@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public static class TypeUtil
     {

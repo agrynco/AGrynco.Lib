@@ -4,7 +4,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public class ValidatorMetaInfo
     {

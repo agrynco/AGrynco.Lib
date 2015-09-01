@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public static class AssemblyScanner
     {

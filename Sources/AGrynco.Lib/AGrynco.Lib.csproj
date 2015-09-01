@@ -7,8 +7,8 @@
     <ProjectGuid>{4E8833F4-190C-4DF8-9302-4D9EC704915C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AGrynco.Lib</RootNamespace>
-    <AssemblyName>AGrynco.Lib</AssemblyName>
+    <RootNamespace>AGrynCo.Lib</RootNamespace>
+    <AssemblyName>AGrynCo.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -248,8 +248,8 @@
     <None Include="Settings\packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\DataProviders.MsSql\SQL\DropDb.sql" />
-    <Content Include="Data\DataProviders.MsSql\SQL\MsSqlKillConnections.sql" />
+    <EmbeddedResource Include="Data\DataProviders.MsSql\SQL\DropDb.sql" />
+    <EmbeddedResource Include="Data\DataProviders.MsSql\SQL\MsSqlKillConnections.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

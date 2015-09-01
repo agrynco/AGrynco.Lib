@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 #endregion
 
-namespace AGrynco.Lib.Console.CommandLineParameters
+namespace AGrynCo.Lib.Console.CommandLineParameters
 {
     public class CommandLineProcessingResult
     {

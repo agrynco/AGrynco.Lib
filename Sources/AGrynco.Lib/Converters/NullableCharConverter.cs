@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Converters
+namespace AGrynCo.Lib.Converters
 {
     [Converter]
     public class NullableCharConverter : ConvertersBaseClass<char?>

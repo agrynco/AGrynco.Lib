@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib
+﻿namespace AGrynCo.Lib
 {
     public class Converter
     {

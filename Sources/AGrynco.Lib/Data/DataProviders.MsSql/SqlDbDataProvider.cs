@@ -5,12 +5,11 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Text;
-
-using AGrynco.Lib.Data.DataProviders.Exceptions;
-using AGrynco.Lib.ResourcesUtils;
+using AGrynCo.Lib.Data.DataProviders.Exceptions;
+using AGrynCo.Lib.ResourcesUtils;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders.MsSql
+namespace AGrynCo.Lib.Data.DataProviders.MsSql
 {
     public class SqlDbDataProvider : BaseDataProvider<SqlConnection, SqlConnectionStringBuilder>
     {
@@ -45,10 +44,7 @@ namespace AGrynco.Lib.Data.DataProviders.MsSql
 
         public override string SchemaName
         {
-            get
-            {
-                return DbConnectionStringBuilder.DataSource;
-            }
+            get { return DbConnectionStringBuilder.DataSource; }
         }
         #endregion
 
@@ -83,7 +79,7 @@ namespace AGrynco.Lib.Data.DataProviders.MsSql
 
             string prearedBatchSql = batchSql;
 
-            string[] strings = prearedBatchSql.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] strings = prearedBatchSql.Split(new[] {Environment.NewLine}, StringSplitOptions.None);
 
             StringBuilder sqlStatementBuilder = new StringBuilder();
             try
@@ -145,7 +141,7 @@ namespace AGrynco.Lib.Data.DataProviders.MsSql
 
         public override void KillAllConnections(string dbName)
         {
-            string killConnectionScript = ResourceReader.ReadAsString(GetType(), "Lib.Data.DataProviders.SQL.MsSqlKillConnections.sql");
+            string killConnectionScript = ResourceReader.ReadAsString(GetType(), "AGrynCo.Lib.Data.DataProviders.SQL.MsSqlKillConnections.sql");
             killConnectionScript = killConnectionScript.Replace("_DB_NAME_", dbName);
             ExecuteNonQuery(killConnectionScript);
         }
@@ -159,7 +155,7 @@ namespace AGrynco.Lib.Data.DataProviders.MsSql
         #region Methods (protected)
         protected override DbDataAdapter CreateAdapter(IDbCommand dbCommand)
         {
-            return new SqlDataAdapter((SqlCommand)dbCommand);
+            return new SqlDataAdapter((SqlCommand) dbCommand);
         }
 
         protected override IDbCommand CreateCommand()

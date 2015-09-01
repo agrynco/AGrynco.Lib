@@ -3,7 +3,7 @@ using System;
 using System.Text;
 #endregion
 
-namespace AGrynco.Lib.RandomGenerators
+namespace AGrynCo.Lib.RandomGenerators
 {
     [RandomGenerator]
     public class StringRandomGenerator : BaseRandomGenerator<string>

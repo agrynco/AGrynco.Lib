@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Reflection;
 #endregion
 
-namespace AGrynco.Lib.Containers
+namespace AGrynCo.Lib.Containers
 {
     public class TypeCriteria
     {

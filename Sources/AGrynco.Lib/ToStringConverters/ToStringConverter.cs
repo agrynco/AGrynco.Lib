@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 #endregion
 
-namespace AGrynco.Lib.ToStringConverters
+namespace AGrynCo.Lib.ToStringConverters
 {
     public class ToStringConverter : IParamValueToStringConverter
     {

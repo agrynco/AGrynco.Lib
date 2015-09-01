@@ -1,7 +1,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.StrUtils
+namespace AGrynCo.Lib.StrUtils
 {
     public class RegularExpressionPatterns
     {

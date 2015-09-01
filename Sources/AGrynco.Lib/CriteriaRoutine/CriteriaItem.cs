@@ -2,7 +2,7 @@
 using System.Diagnostics;
 #endregion
 
-namespace AGrynco.Lib.CriteriaRoutine
+namespace AGrynCo.Lib.CriteriaRoutine
 {
     public class CriteriaItem : BaseCriteria
     {

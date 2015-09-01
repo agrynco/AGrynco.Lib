@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public abstract class EasyValidatorBase<TValidatedObject> : IEasyValidator<ValidationResult<TValidatedObject>, TValidatedObject>
     {

@@ -4,7 +4,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.ToStringConverters
+namespace AGrynCo.Lib.ToStringConverters
 {
     public class StringToStringConverter : BaseToStringConverter<string>
     {

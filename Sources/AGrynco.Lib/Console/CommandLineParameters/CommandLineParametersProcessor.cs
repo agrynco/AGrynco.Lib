@@ -5,11 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Console.CommandLineParameters
+namespace AGrynCo.Lib.Console.CommandLineParameters
 {
     public static class CommandLineParametersPrcessor
     {

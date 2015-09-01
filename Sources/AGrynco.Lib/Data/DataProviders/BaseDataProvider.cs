@@ -7,14 +7,13 @@ using System.Data.Common;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-
-using AGrynco.Lib.Collections;
-using AGrynco.Lib.Data.DataProviders.Attributes;
-using AGrynco.Lib.Data.DataProviders.Exceptions;
-using AGrynco.Lib.RandomGenerators;
+using AGrynCo.Lib.Collections;
+using AGrynCo.Lib.Data.DataProviders.Attributes;
+using AGrynCo.Lib.Data.DataProviders.Exceptions;
+using AGrynCo.Lib.RandomGenerators;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders
+namespace AGrynCo.Lib.Data.DataProviders
 {
 
     #region Usings

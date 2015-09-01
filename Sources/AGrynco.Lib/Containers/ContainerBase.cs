@@ -3,11 +3,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Containers
+namespace AGrynCo.Lib.Containers
 {
     public class ContainerBase<TContainerItemCreator, TContainerItemCreatorParameters, TContainerItemRegistrator> : IContainer
         where TContainerItemCreator : IContainerItemCreator<TContainerItemCreatorParameters>, new()

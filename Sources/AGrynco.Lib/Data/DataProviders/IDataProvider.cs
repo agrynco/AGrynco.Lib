@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.Common;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders
+namespace AGrynCo.Lib.Data.DataProviders
 {
     public interface IDataProvider : IDisposable
     {

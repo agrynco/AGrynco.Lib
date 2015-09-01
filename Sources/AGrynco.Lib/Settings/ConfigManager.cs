@@ -2,7 +2,7 @@
 using System.Configuration;
 #endregion
 
-namespace AGrynco.Lib.Settings
+namespace AGrynCo.Lib.Settings
 {
     public static class ConfigManager
     {

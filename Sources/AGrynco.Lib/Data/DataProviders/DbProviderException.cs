@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders
+namespace AGrynCo.Lib.Data.DataProviders
 {
     public class DbProviderException : Exception
     {

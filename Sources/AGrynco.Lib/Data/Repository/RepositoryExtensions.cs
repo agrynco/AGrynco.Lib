@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Data.Repository
+namespace AGrynCo.Lib.Data.Repository
 {
     public static class RepositoryExtensions
     {

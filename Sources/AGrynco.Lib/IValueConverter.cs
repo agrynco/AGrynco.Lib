@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     /// <summary>
     /// Non generic realisation doesn't contains Convert method because we use this interface as 'container'

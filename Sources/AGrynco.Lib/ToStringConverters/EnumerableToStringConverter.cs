@@ -3,7 +3,7 @@ using System.Collections;
 using System.Text;
 #endregion
 
-namespace AGrynco.Lib.ToStringConverters
+namespace AGrynCo.Lib.ToStringConverters
 {
     public class EnumerableToStringConverter : BaseToStringConverter<IEnumerable>
     {

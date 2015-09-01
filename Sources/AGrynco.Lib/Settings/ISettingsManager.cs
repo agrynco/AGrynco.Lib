@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib.Settings
+﻿namespace AGrynCo.Lib.Settings
 {
     public interface ISettingsManager
     {

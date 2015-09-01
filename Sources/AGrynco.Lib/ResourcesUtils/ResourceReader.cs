@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 #endregion
 
-namespace AGrynco.Lib.ResourcesUtils
+namespace AGrynCo.Lib.ResourcesUtils
 {
     public static class ResourceReader
     {

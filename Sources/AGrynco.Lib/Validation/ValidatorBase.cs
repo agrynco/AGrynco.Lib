@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     /// <summary>
     /// Represent a single root validator with child validators

@@ -4,7 +4,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.Containers
+namespace AGrynCo.Lib.Containers
 {
     public class ItemCreatorParamsEmpty : IContainerItemCreatorParameters
     {

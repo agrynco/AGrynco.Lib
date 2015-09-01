@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public class EasyRegularExpressionValidator : EasyValidatorBase<string>
     {

@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
     public class ConverterAttribute : Attribute

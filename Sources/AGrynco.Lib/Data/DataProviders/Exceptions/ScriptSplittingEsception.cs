@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders.Exceptions
+namespace AGrynCo.Lib.Data.DataProviders.Exceptions
 {
     public class ScriptSplittingEsception : DataProviderException
     {

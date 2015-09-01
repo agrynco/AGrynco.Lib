@@ -1,11 +1,10 @@
 #region Usings
 using System.Collections;
 using System.Collections.Generic;
-
-using AGrynco.Lib.StrUtils;
+using AGrynCo.Lib.StrUtils;
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public class CustomList<TItem> : ICustomList<TItem>
     {

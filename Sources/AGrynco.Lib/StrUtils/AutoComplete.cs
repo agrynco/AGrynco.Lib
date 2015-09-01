@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 #endregion
 
-namespace AGrynco.Lib.StrUtils
+namespace AGrynCo.Lib.StrUtils
 {
     public static class AutoComplete
     {

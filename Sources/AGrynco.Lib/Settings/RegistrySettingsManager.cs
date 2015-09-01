@@ -2,7 +2,7 @@
 using Microsoft.Win32;
 #endregion
 
-namespace AGrynco.Lib.Settings
+namespace AGrynCo.Lib.Settings
 {
     public class RegistrySettingsManager : SettingsManagerBase
     {

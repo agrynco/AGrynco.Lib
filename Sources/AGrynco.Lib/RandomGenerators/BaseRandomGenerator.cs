@@ -1,7 +1,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.RandomGenerators
+namespace AGrynCo.Lib.RandomGenerators
 {
     public abstract class BaseRandomGenerator<T> : IRandomGenerator
     {

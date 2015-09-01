@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib.Exceptions
+﻿namespace AGrynCo.Lib.Exceptions
 {
     public class CommandLineParametersPrcessorValidateException : CommandLineParameterException
     {

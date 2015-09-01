@@ -3,12 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-
-using AGrynco.Lib.Exceptions;
-using AGrynco.Lib.ToStringConverters;
+using AGrynCo.Lib.Exceptions;
+using AGrynCo.Lib.ToStringConverters;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public class BaseClass
     {

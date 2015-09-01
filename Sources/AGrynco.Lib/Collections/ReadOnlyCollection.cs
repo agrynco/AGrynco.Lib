@@ -1,7 +1,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.Collections
+namespace AGrynCo.Lib.Collections
 {
     public class ReadOnlyCollection<TKey, TValue> : CustomCollection<TKey, TValue>
     {

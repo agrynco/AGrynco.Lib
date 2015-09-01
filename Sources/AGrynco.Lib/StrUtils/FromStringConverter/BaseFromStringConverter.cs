@@ -1,10 +1,9 @@
 #region Usings
 using System;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverter
 {
     public abstract class BaseFromStringConverter<TResult> : IFromStringConverter<TResult>
     {

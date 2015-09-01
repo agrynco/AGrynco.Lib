@@ -1,4 +1,4 @@
-namespace AGrynco.Lib.Containers
+namespace AGrynCo.Lib.Containers
 {
     public class Container : ContainerBase<ContainerItemCreator, ItemCreatorParamsEmpty, ContainerItemRegistrator>
     {

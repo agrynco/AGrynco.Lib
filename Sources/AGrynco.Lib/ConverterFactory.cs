@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Reflection;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public static class ConverterFactory
     {

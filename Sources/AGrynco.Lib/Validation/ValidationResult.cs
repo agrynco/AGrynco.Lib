@@ -3,7 +3,7 @@ using System;
 using System.Reflection;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     public class ValidationResult<TValidatedObject> : BaseClass, IValidationResult
     {

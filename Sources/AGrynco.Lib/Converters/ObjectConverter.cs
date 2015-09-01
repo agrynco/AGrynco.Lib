@@ -1,4 +1,4 @@
-﻿namespace AGrynco.Lib.Converters
+﻿namespace AGrynCo.Lib.Converters
 {
     [Converter]
     public class ObjectConverter : ConvertersBaseClass<object>

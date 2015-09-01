@@ -3,11 +3,10 @@ using System;
 using System.Data;
 using System.Linq;
 using System.Reflection;
-
-using AGrynco.Lib.Data.DataProviders.Exceptions;
+using AGrynCo.Lib.Data.DataProviders.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders
+namespace AGrynCo.Lib.Data.DataProviders
 {
     public class DbDataReader : IDbDataReader
     {

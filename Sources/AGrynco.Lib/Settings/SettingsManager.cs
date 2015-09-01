@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-
-using AGrynco.Lib.Settings.Exceptions;
-using AGrynco.Lib.StrUtils.FromStringConverter;
-using AGrynco.Lib.StrUtils.FromStringConverter.Exceptions;
+using AGrynCo.Lib.Settings.Exceptions;
+using AGrynCo.Lib.StrUtils.FromStringConverter;
+using AGrynCo.Lib.StrUtils.FromStringConverter.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Settings
+namespace AGrynCo.Lib.Settings
 {
     /// <summary>
     /// Wrapper for <see cref="ConfigurationManager"/>. Implemented for 

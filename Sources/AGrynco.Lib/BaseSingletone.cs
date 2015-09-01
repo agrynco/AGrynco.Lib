@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public class BaseSingletone<T>
         where T : class

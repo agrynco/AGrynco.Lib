@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 #endregion
 
-namespace AGrynco.Lib.Exceptions
+namespace AGrynCo.Lib.Exceptions
 {
     public class ContainerKeyNotFoundException : Exception
     {

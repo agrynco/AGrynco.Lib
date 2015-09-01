@@ -2,11 +2,10 @@
 using System;
 using System.Diagnostics;
 using System.Reflection;
-
-using AGrynco.Lib.ToStringConverters;
+using AGrynCo.Lib.ToStringConverters;
 #endregion
 
-namespace AGrynco.Lib.Data.Repository
+namespace AGrynCo.Lib.Data.Repository
 {
     public abstract class BaseEntity<TIdentifier> : BaseClass, IEntity
         where TIdentifier : IMultiKey, new()

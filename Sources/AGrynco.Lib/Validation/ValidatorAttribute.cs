@@ -3,7 +3,7 @@ using System;
 using System.Diagnostics;
 #endregion
 
-namespace AGrynco.Lib.Validation
+namespace AGrynCo.Lib.Validation
 {
     /// <summary>
     /// Атирбут для классов тип которых является наследником <see cref="ValidatorBase{TValidatedObj,TValidationResult}"/>/>

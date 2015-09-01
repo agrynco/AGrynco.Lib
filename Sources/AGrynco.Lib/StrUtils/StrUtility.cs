@@ -3,11 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
-
-using AGrynco.Lib.Exceptions;
+using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.StrUtils
+namespace AGrynCo.Lib.StrUtils
 {
     public static class StrUtility
     {

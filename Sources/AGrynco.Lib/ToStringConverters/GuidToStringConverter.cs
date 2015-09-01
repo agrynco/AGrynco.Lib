@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.ToStringConverters
+namespace AGrynCo.Lib.ToStringConverters
 {
     public class GuidToStringConverter : BaseToStringConverter<Guid>
     {

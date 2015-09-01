@@ -4,7 +4,7 @@
 #region Usings
 #endregion
 
-namespace AGrynco.Lib.Data.Repository
+namespace AGrynCo.Lib.Data.Repository
 {
     public interface IKey
     {

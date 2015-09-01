@@ -1,10 +1,9 @@
 ﻿#region Usings
 using System.Data.SqlClient;
-
-using AGrynco.Lib.ResourcesUtils;
+using AGrynCo.Lib.ResourcesUtils;
 #endregion
 
-namespace AGrynco.Lib.Data.DataProviders.MsSql
+namespace AGrynCo.Lib.Data.DataProviders.MsSql
 {
     public class SqlDatabaseManager : BaseDatabaseManager
     {
@@ -30,7 +29,7 @@ namespace AGrynco.Lib.Data.DataProviders.MsSql
 
         protected override string BuildDropDbScript(string dbName)
         {
-            string result = ResourceReader.ReadAsString(GetType(), "Lib.Data.DataProviders.MsSql.SQL.DropDb.sql");
+            string result = ResourceReader.ReadAsString(GetType(), "AGrynCo.Lib.Data.DataProviders.MsSql.SQL.DropDb.sql");
 
             return result.Replace("@dbName", dbName);
         }

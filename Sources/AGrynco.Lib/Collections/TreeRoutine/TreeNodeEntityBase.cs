@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynco.Lib.Collections.TreeRoutine
+namespace AGrynCo.Lib.Collections.TreeRoutine
 {
     [Serializable]
     public abstract class TreeNodeEntityBase<TTreeNodeIdentifier> : ITreeNodeEntity

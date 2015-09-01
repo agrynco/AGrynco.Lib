@@ -1,12 +1,11 @@
 ﻿#region Usings
 using System;
 using System.Collections.Generic;
-
-using AGrynco.Lib.Data.DataProviders;
-using AGrynco.Lib.Data.Repository.Exceptions;
+using AGrynCo.Lib.Data.DataProviders;
+using AGrynCo.Lib.Data.Repository.Exceptions;
 #endregion
 
-namespace AGrynco.Lib.Data.Repository
+namespace AGrynCo.Lib.Data.Repository
 {
     public abstract class BaseRepository<TEntity, TEntityIdentifier> : IReadOnlyRepository<TEntity, TEntityIdentifier>
         where TEntity : BaseEntity<TEntityIdentifier>, new() where TEntityIdentifier : BaseMultiKey, IMultiKey, new()

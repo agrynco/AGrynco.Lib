@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib
+namespace AGrynCo.Lib
 {
     public static class LinqHelpers
     {

@@ -1,8 +1,8 @@
 #region Usings
-using AGrynco.Lib.Containers;
+using AGrynCo.Lib.Containers;
 #endregion
 
-namespace AGrynco.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverter
 {
     public class FromStringConvertersContainer :
         ContainerBase<ContainerItemCreator, ItemCreatorParamsEmpty, FromStringConverterRegistrator>

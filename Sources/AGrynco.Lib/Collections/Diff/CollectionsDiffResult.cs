@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace AGrynco.Lib.Collections.Diff
+namespace AGrynCo.Lib.Collections.Diff
 {
     public class CollectionsDiffResult<TItem>
     {
