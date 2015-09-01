@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGrynco.Lib", "AGrynco.Lib\AGrynco.Lib.csproj", "{4E8833F4-190C-4DF8-9302-4D9EC704915C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{787712CC-5079-455F-BFF3-D57F1735501A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tools\AGrynco.Lib.dll.nuspec.1 = ..\Tools\AGrynco.Lib.dll.nuspec.1
+		..\Tools\AGrynco.Lib.dll.nuspec.2 = ..\Tools\AGrynco.Lib.dll.nuspec.2
+		..\Tools\create&push_package.bat = ..\Tools\create&push_package.bat
+		..\Tools\prepare_folder.bat = ..\Tools\prepare_folder.bat
+		..\Tools\readme.txt = ..\Tools\readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

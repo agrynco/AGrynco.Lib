@@ -1,12 +1,13 @@
 @ECHO OFF
 
 SET netVersion=net45
-SET workFolder=C:\Temp\AGrynco.Lib\
+SET workFolder=%1
 SET targetBinraiesFolder=%workFolder%lib\%netVersion%\
 SET specFileName="AGrynco.Lib.dll.nuspec"
 SET fullSpecFileName=%workFolder%%specFileName%
-SET build=%1
-SET apiKey=%2
+
+SET build=%2
+SET apiKey=%3
 
 ECHO specFileName - %specFileName%
 
@@ -17,7 +18,7 @@ TYPE AGrynco.Lib.dll.nuspec.1> %fullSpecFileName%
 ECHO %build%>> %fullSpecFileName%
 TYPE AGrynco.Lib.dll.nuspec.2>> %fullSpecFileName%
 
-SET pathToBinaries=..\AGrynco.Lib\bin\Debug\
+SET pathToBinaries=..Sources\\AGrynco.Lib\bin\Debug\
 
 COPY %pathToBinaries%*.* %targetBinraiesFolder%
 
@@ -27,4 +28,4 @@ nuget pack %specFileName%
 
 nuget setApiKey %apiKey%
 
-nuget push AGrynco.Lib.dll.%build%.nupkg
+REM nuget push AGrynco.Lib.dll.%build%.nupkg
