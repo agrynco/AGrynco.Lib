@@ -31,4 +31,4 @@ CD %workFolder%
 
 %toolsDir%\nuget setApiKey %apiKey%
 
-REM %toolsDir%\nuget push AGrynco.Lib.dll.%build%.nupkg
+%toolsDir%\nuget push AGrynco.Lib.dll.%build%.nupkg
