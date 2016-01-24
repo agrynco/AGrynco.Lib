@@ -3,8 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using AGrynCo.Lib.Settings.Exceptions;
-using AGrynCo.Lib.StrUtils.FromStringConverter;
 using AGrynCo.Lib.StrUtils.FromStringConverter.Exceptions;
+using AGrynCo.Lib.StrUtils.FromStringConverters;
 #endregion
 
 namespace AGrynCo.Lib.Settings

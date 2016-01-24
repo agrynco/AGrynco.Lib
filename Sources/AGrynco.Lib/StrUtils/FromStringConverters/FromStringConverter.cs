@@ -1,9 +1,10 @@
 #region Usings
 using System;
 using AGrynCo.Lib.Containers;
+using AGrynCo.Lib.StrUtils.FromStringConverter;
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     public static class FromStringConverter
     {
