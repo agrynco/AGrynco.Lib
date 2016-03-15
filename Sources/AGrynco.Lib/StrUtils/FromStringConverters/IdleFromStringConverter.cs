@@ -1,7 +1,8 @@
 #region Usings
+
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     [FromStringConverter]
     public class IdleFromStringConverter : BaseFromStringConverter<string>

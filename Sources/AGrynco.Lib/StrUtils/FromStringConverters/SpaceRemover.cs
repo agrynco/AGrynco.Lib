@@ -1,7 +1,7 @@
 #region Usings
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     public class SpaceRemover : BaseFromStringConverter<string>
     {

@@ -3,7 +3,7 @@ using System;
 using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     public abstract class BaseFromStringConverter<TResult> : IFromStringConverter<TResult>
     {

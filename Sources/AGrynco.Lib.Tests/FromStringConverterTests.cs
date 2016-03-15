@@ -1,5 +1,7 @@
-﻿using AGrynCo.Lib.StrUtils.FromStringConverters;
+﻿#region Usings
+using AGrynCo.Lib.StrUtils.FromStringConverters;
 using NUnit.Framework;
+#endregion
 
 namespace AGrynco.Lib.Tests
 {

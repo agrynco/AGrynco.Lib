@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 using AGrynCo.Lib.Exceptions;
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter.Exceptions
+namespace AGrynCo.Lib.StrUtils.FromStringConverters.Exceptions
 {
     public class FromStringConvertException : ConvertException
     {

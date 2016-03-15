@@ -1,4 +1,4 @@
-﻿namespace AGrynCo.Lib.StrUtils.FromStringConverter
+﻿namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     public abstract class ToNullableFromStringConverter<TResult> : BaseFromStringConverter<TResult>
     {

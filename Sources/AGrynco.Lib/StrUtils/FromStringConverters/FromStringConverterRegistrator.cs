@@ -3,7 +3,7 @@ using System;
 using AGrynCo.Lib.Containers;
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     public class FromStringConverterRegistrator : ContainerItemRegistrator
     {

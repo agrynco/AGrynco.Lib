@@ -1,4 +1,4 @@
-﻿namespace AGrynCo.Lib.StrUtils.FromStringConverter
+﻿namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     [FromStringConverter]
     public class BoolFromStringConverter : BaseFromStringConverter<bool>

@@ -2,7 +2,7 @@
 using System;
 #endregion
 
-namespace AGrynCo.Lib.StrUtils.FromStringConverter
+namespace AGrynCo.Lib.StrUtils.FromStringConverters
 {
     [FromStringConverter]
     public class Int64FromStringConverter : BaseFromStringConverter<Int64>
