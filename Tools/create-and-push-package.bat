@@ -1,6 +1,6 @@
 REM ECHO OFF
 
-SET netVersion=net45
+SET netVersion=net46
 SET workFolder=%1
 SET targetBinariesFolder=%workFolder%lib\%netVersion%\
 SET specFileName="AGrynco.Lib.dll.nuspec"

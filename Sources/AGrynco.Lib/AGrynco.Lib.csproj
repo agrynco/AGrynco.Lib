@@ -215,6 +215,7 @@
     <Compile Include="StrUtils\FromStringConverters\NullableBooleanFromStringConverter.cs" />
     <Compile Include="StrUtils\FromStringConverters\NullableIntFromStringConverter.cs" />
     <Compile Include="StrUtils\FromStringConverters\SpaceRemover.cs" />
+    <Compile Include="StrUtils\FromStringConverters\TimeSpanFromStringConverter.cs" />
     <Compile Include="StrUtils\FromStringConverters\ToNullableFromStringConverter.cs" />
     <Compile Include="StrUtils\FromStringConverters\UIntFromStringConverter.cs" />
     <Compile Include="StrUtils\RegularExpressionPatterns.cs" />

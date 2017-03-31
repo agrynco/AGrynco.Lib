@@ -30,10 +30,7 @@ namespace AGrynCo.Lib.ToStringConverters
         #region Static Properties (public)
         public static ToStringConverter Instance
         {
-            get
-            {
-                return _instance ?? (_instance = new ToStringConverter());
-            }
+            get { return _instance ?? (_instance = new ToStringConverter()); }
         }
         #endregion
 
@@ -52,7 +49,7 @@ namespace AGrynCo.Lib.ToStringConverters
                 return _converters[type].Convert(value);
             }
 
-            throw new KeyNotFoundException(string.Format("Converter for type '{0}' is not registered.", type));
+            throw new KeyNotFoundException($"Converter for type '{type}' is not registered.");
         }
         #endregion
 
@@ -99,7 +96,7 @@ namespace AGrynCo.Lib.ToStringConverters
                         {
                             result.Append(propertyInfo.Name).Append(" = [");
                             const string item_separator = ", ";
-                            foreach (object item in (IEnumerable)propertyValue)
+                            foreach (object item in (IEnumerable) propertyValue)
                             {
                                 ProcessValue(null, item, result, alreadyToStringConverted);
                                 result.Append(item_separator);

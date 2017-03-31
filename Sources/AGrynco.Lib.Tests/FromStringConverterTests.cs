@@ -1,4 +1,5 @@
 ﻿#region Usings
+using System;
 using AGrynCo.Lib.StrUtils.FromStringConverters;
 using NUnit.Framework;
 #endregion
@@ -26,6 +27,16 @@ namespace AGrynco.Lib.Tests
 
             //Asserts
             Assert.That(actual, Is.EqualTo(true));
+        }
+
+        [Test]
+        public void ConvertToTimeSpan()
+        {
+            //Act
+            TimeSpan actual = FromStringConverter.Convert<TimeSpan>("9:0:0");
+
+            //Asserts
+            Assert.That(actual, Is.EqualTo(new TimeSpan(9, 0, 0)));
         }
     }
 }
