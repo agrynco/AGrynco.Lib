@@ -30,6 +30,7 @@ CD %workFolder%
 
 DIR
 
+ECHO %toolsDir%\nuget pack %specFileName%
 %toolsDir%\nuget pack %specFileName%
 
 %toolsDir%\nuget setApiKey %apiKey%
