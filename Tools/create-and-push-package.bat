@@ -25,6 +25,7 @@ COPY %pathToBinaries%*.* %targetBinariesFolder%
 
 SET toolsDir=%CD%
 
+ECHO CD %workFolder%
 CD %workFolder%
 
 DIR
