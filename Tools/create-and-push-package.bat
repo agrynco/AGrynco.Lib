@@ -27,6 +27,8 @@ SET toolsDir=%CD%
 
 CD %workFolder%
 
+DIR
+
 %toolsDir%\nuget pack %specFileName%
 
 %toolsDir%\nuget setApiKey %apiKey%
