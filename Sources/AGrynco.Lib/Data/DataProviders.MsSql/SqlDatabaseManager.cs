@@ -34,11 +34,11 @@ namespace AGrynCo.Lib.Data.DataProviders.MsSql
             return result.Replace("@dbName", dbName);
         }
 
-        protected override string BuildCleanUpDbScript(string targetDataBaseName)
+        protected override string BuildCleanUpDbScript(string dbName)
         {
             string result = ResourceReader.ReadAsString(typeof(SqlDatabaseManager), "AGrynCo.Lib.Data.DataProviders.MsSql.SQL.CleanUpDb.sql");
 
-            return result;
+            return result.Replace("@dbName", dbName);
         }
     }
 }

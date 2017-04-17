@@ -42,6 +42,6 @@
 
         protected abstract IDataProvider BuildDataProvider(string connectionString);
         protected abstract string BuildDropDbScript(string dbName);
-        protected abstract string BuildCleanUpDbScript(string targetDataBaseName);
+        protected abstract string BuildCleanUpDbScript(string dbName);
     }
 }
