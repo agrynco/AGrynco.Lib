@@ -29,9 +29,16 @@ namespace AGrynCo.Lib.Data.DataProviders.MsSql
 
         protected override string BuildDropDbScript(string dbName)
         {
-            string result = ResourceReader.ReadAsString(GetType(), "AGrynCo.Lib.Data.DataProviders.MsSql.SQL.DropDb.sql");
+            string result = ResourceReader.ReadAsString(typeof(SqlDatabaseManager), "AGrynCo.Lib.Data.DataProviders.MsSql.SQL.DropDb.sql");
 
             return result.Replace("@dbName", dbName);
+        }
+
+        protected override string BuildCleanUpDbScript(string targetDataBaseName)
+        {
+            string result = ResourceReader.ReadAsString(typeof(SqlDatabaseManager), "AGrynCo.Lib.Data.DataProviders.MsSql.SQL.CleanUpDb.sql");
+
+            return result;
         }
     }
 }

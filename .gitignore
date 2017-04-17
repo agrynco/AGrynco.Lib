@@ -189,3 +189,5 @@ _Pvt_Extensions/
 ModelManifest.xml
 /Sources/packages
 /Sources/packages/NUnit.3.0.1
+/Tools/lib/net46/AGrynCo.Lib.dll
+/Tools/lib

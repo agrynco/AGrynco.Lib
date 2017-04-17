@@ -4,5 +4,6 @@
     {
         string TargetDataBaseName { get; }
         void Drop();
+        void CleanUp();
     }
 }
