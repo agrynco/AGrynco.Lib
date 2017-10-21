@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGrynco.Lib", "AGrynco.Lib\AGrynco.Lib.csproj", "{4E8833F4-190C-4DF8-9302-4D9EC704915C}"
 EndProject
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{787712CC
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGrynco.Lib.Tests", "AGrynco.Lib.Tests\AGrynco.Lib.Tests.csproj", "{E9F9A3DD-1CEF-4A29-B406-846AE5E3B768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineParameters.Example.Console", "CommandLineParameters.Example.Console\CommandLineParameters.Example.Console.csproj", "{5FE3DDE9-F8A0-4E4F-8ACF-4C214502D6BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,8 +32,15 @@ Global
 		{E9F9A3DD-1CEF-4A29-B406-846AE5E3B768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9F9A3DD-1CEF-4A29-B406-846AE5E3B768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9F9A3DD-1CEF-4A29-B406-846AE5E3B768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE3DDE9-F8A0-4E4F-8ACF-4C214502D6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE3DDE9-F8A0-4E4F-8ACF-4C214502D6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE3DDE9-F8A0-4E4F-8ACF-4C214502D6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE3DDE9-F8A0-4E4F-8ACF-4C214502D6BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7637B93B-692F-498E-91B4-55C4F151D75B}
 	EndGlobalSection
 EndGlobal

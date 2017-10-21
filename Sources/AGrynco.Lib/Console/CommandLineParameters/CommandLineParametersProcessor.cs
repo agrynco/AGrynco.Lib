@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+
 using AGrynCo.Lib.Exceptions;
 #endregion
 
@@ -18,7 +19,7 @@ namespace AGrynCo.Lib.Console.CommandLineParameters
             FileInfo exeFileInfo = new FileInfo(Assembly.GetEntryAssembly().Location);
 
             StringBuilder stringBuilder = new StringBuilder();
-            foreach (ICommandLineParameter<string>[] sequenceOfCoCommandLineParameters in setOfSequencesOfCommandLineParameters)
+            foreach (ICommandLineParameter[] sequenceOfCoCommandLineParameters in setOfSequencesOfCommandLineParameters)
             {
                 stringBuilder.Append(exeFileInfo.Name).Append(" ");
                 foreach (ICommandLineParameter<string> commandLineParameter in sequenceOfCoCommandLineParameters)
@@ -29,6 +30,7 @@ namespace AGrynCo.Lib.Console.CommandLineParameters
                         stringBuilder.Append(" ");
                     }
                 }
+
                 stringBuilder.AppendLine();
             }
 
